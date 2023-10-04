@@ -45,13 +45,8 @@ namespace GreatestWarrior.Tests
         [DataRow(11000, 100)]
         public void WarriorLevel_ShouldBeBasedOnExperience(int actualExperience, int expectedLevel)
         {
-            // Arrange
             _warrior.Experience = actualExperience;
-
-            // Action
             _warrior.UpdateLevel();
-
-            // Assert
             Assert.AreEqual(expectedLevel, _warrior.Level);
         }
 
