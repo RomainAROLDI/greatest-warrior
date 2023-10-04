@@ -1,6 +1,3 @@
-using System.Reflection;
-using System.Reflection.Emit;
-
 namespace GreatestWarrior.Tests
 {
     [TestClass]
@@ -178,6 +175,6 @@ namespace GreatestWarrior.Tests
         }
 
         // TODO: Faire quelques tests fonctionnels (multiples batailles check XP / batailles + training
-        // bataille + end / batailles jusqu'à rank max)
+        // bataille + end / batailles jusqu'ï¿½ rank max)
     }
 }
